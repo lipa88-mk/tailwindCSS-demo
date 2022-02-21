@@ -4,11 +4,79 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="index.css"/>
     <title>Layout</title>
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-    <!--    place to add content    -->
+    <header 
+        class="font-sans text-base
+        container mx-auto max-w-screen-xl
+        grid grid-cols-header gap-5 
+        px-4 py-[7px]">
+        
+        <div class="flex items-center gap-5">
+            
+            <a class="shrink-0"
+                href="#">
+                <img src="logo.svg" width="41" height="41" alt="logo">
+            </a>
+            
+            <form 
+                class="flex items-stretch gap-5"
+                action="#">
+                
+                <input 
+                    class="box-border w-[170px] p-2 
+                    bg-gray-light rounded-md 
+                    border border-solid border-gray-dark
+                    placeholder:text-black"
+                    type="search" 
+                    name="search" 
+                    id="search" 
+                    placeholder="Search">
+                
+                <select 
+                    class="box-border w-[153px] p-1.5 
+                    bg-gray-light rounded-md 
+                    border border-solid border-gray-dark"
+                    name="where" 
+                    id="where">
+                    <option value="everywhere">Everywhere</option>
+                    <option value="somewhere">Somewhere</option>
+                    <option value="anywhere">Anywhere</option>
+                </select>
+            </form>
+
+        </div>
+        <div class="flex gap-4 items-start justify-center">
+            <button 
+                type="button" 
+                class="w-[30px] h-[30px]
+                flex items-center justify-center
+                bg-gray-light rounded-md">
+
+                <img src="horizontal.svg" width="30" height="30" alt="menu">
+            </button>
+            
+            <button 
+                type="button" 
+                class="w-[30px] h-[30px]
+                flex items-center justify-center
+                bg-gray-light rounded-md">
+
+                <img src="vertical.svg"  width="30" height="30" alt="menu">
+            </button>
+        </div>
+        <div class="flex gap-5 items-start justify-end">
+            <button 
+                type="button" 
+                class="p-2
+                bg-gray-light rounded-md">
+                Create new document
+            </button>
+
+        </div>
     </header>
 
 </body>
