@@ -15,3 +15,7 @@
 - publish result in your repository and share link with us
 
 Mock can be found in [Figma](https://www.figma.com/file/JntC2biTOwdyofiRpD38li/layout-interview?node-id=0%3A1)
+
+### Answers to Extra questions
+
+Can be found in [Figma](https://www.figma.com/file/Vr2mFfiMB0z9vtmTgH18bn/layout-interview-(Copy)?node-id=0%3A1)
