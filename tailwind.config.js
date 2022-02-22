@@ -20,7 +20,7 @@ module.exports = {
     },
     extend: {
       gridTemplateColumns: {
-        'header': 'minmax(max-content, 1fr) 70px minmax(max-content, 1fr)',
+        'header': 'minmax(max-content, 1fr) 80px minmax(max-content, 1fr)',
       }
     },
   },
